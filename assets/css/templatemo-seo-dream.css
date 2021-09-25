@@ -890,10 +890,10 @@ Banner Style
   font-weight: 800;
   color: #2a2a2a;
   line-height: 72px;
-  background: #FA9D4D;
-  background: -webkit-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  background: -moz-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  background: linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
+  background: #e60f0f;
+  background: -webkit-linear-gradient(to right, #ff5252 0%, #990000 100%);
+  background: -moz-linear-gradient(to right, #ff5252 0%, #990000 100%);
+  background: linear-gradient(to right, #ff5252 0%, #990000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -942,7 +942,7 @@ Features Style
 
 .features-item:hover {
   background: #e60f0f;
-  background: linear-gradient(105deg, #ffa1a1 0%, #f00000 100%);
+  background: linear-gradient(105deg, #c4c4c4 0%, #9c9c9c 100%);
 }
 
 .features-item:hover h4 {
@@ -958,11 +958,29 @@ Features Style
 }
 
 .first-feature:hover .icon {
-  background-image: url(../images/features-icon-white-01.png);
+  background-image: url(../images/streamlined-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% 100%;
 }
 
 .second-feature:hover .icon {
-  background-image: url(../images/features-icon-white-02.png);
+  background-image: url(../images/speedwhite.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+}
+.third-feature:hover .icon {
+  background-image: url(../images/features-icon-white-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.fourth-feature:hover .icon {
+  background-image: url(../images/featurewhite.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
 }
 
 .features-item .number h6 {
@@ -997,16 +1015,34 @@ Features Style
 }
 
 .first-feature .icon {
-  background-image: url(../images/features-icon-black-01.png);
+  background-image: url(../images/streamlined.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% 100%;
 }
 
 .second-feature .icon {
-  background-image: url(../images/features-icon-black-02.png);
+  background-image: url(../images/speed.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+}
+.third-feature .icon {
+  background-image: url(../images/features-icon-black-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.fourth-feature .icon {
+  background-image: url(../images/feature.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
 }
 
 .features-item .icon {
-  width: 63px;
-  height: 63px;
+  width: 75px;
+  height: 75px;
   margin: 0 auto;
   transition: all 0.5s;
 }
